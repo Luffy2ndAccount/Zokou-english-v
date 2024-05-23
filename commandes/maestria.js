@@ -60,8 +60,6 @@ zokou(
 );
 
 
-const { zokou } = require('../framework/zokou');
-
 zokou(
     {
         nomCom: 'guide🍃',
@@ -85,6 +83,39 @@ zokou(
 ▪️Il y aura des quêtes ou vous serez récompensé si vous survivez 
 
 Remplissez sagement vos fiches ✨`;
+            zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
+   
+        }
+    }
+);
+
+
+zokou(
+    {
+        nomCom: 'rmd🍃',
+        categorie: '🍃𝕄𝔸𝔼𝕊𝕋ℝ𝕀𝔸🍃'
+    },
+    async (dest, zk, commandeOptions) => {
+        const { repondre, arg, ms } = commandeOptions;
+
+        if (!arg || arg.length === 0)  {
+            const lien = 'https://telegra.ph/file/3ab22962729d84870ef72.jpg';
+            const msg = `═══════𝐌𝐀𝐄𝐒𝐓𝐑𝐈𝐀🍃 𝐑𝐏𝐕𝐄𝐑𝐒𝐄══════
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+
+❄️ `Conclusion:`
+
+
+❄️ `Mot de fin:`
+
+
+❄️ `CM:`
+
+═══════❄️══════
+*SCORE⚕️:*
+*MODO⚕️:*
+*ARENA⚕️:*
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓`;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
         }
