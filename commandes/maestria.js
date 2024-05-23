@@ -2,7 +2,7 @@ const { zokou } = require('../framework/zokou');
 
 zokou(
     {
-        nomCom: ‘fiche🍃',
+        nomCom: 'fiche🍃',
         categorie: '🍃𝕄𝔸𝔼𝕊𝕋ℝ𝕀𝔸🍃'
     },
     async (dest, zk, commandeOptions) => {
@@ -53,6 +53,38 @@ zokou(
 *• ❤️ Vie:*
 *•🕯️Stamina:*
 ╔═━────━▒ ۞ ▒━────━═╗`;
+            zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
+   
+        }
+    }
+);
+
+
+const { zokou } = require('../framework/zokou');
+
+zokou(
+    {
+        nomCom: 'guide🍃',
+        categorie: '🍃𝕄𝔸𝔼𝕊𝕋ℝ𝕀𝔸🍃'
+    },
+    async (dest, zk, commandeOptions) => {
+        const { repondre, arg, ms } = commandeOptions;
+
+        if (!arg || arg.length === 0)  {
+            const lien = 'https://telegra.ph/file/3ab22962729d84870ef72.jpg';
+            const msg = `Remplissage Fiche.
+
+▪️ Remplissez votre fiche comme il se doit et faites les choses simples svp. Pas de sort compliqué que vous ne maîtrisez même pas. Vous n'êtes pas limité en sort. Vos sorts seront infinis tant que vous évoluerez dans ce monde. Mais comment obtenir davantage de sorts ? Voilà la véritable question 
+▪️La fiche indique que vous avez droit 2 sorts distinctifs par niveau de technique du plus petit au plus grand.  Tout est sur la fiche. Donc vous pouvez avoir 2 sorts mineurs si vous voulez . Mais comment utiliser ?
+♦️Pour un sort Mineur n'importe quel Participants de Niveau faible ou plus peut le faire.
+♦️Pour les sorts moyens il faut être Niv C minimum voir plus pour pouvoir les utiliser. 
+♦️Pour le sort majeur il faut être au moins Niveau B où B+ jusqu'à supérieur pour pouvoir l'utiliser. 
+▪️Pour vos mana le système est pareil. Plus vous faites évoluer plus votre mana grandit et votre puissance aussi.
+▪️Pour les aptitudes , au départ vous avez 8000 TC à partager.
+▪️Points gagnés (PG) vous permet d'augmenter vos aptitudes aux combats qui seront cruciales aussi pendant les quêtes. Les joyaux représentent votre argent en poche. Les ressources c'est la valeur des objets que vous pouvez vendre ou échanger dans la boutique ou entre vous même les participants. 
+▪️Il y aura des quêtes ou vous serez récompensé si vous survivez 
+
+Remplissez sagement vos fiches ✨`;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
    
         }
