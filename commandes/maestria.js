@@ -3,7 +3,7 @@ const { zokou } = require('../framework/zokou');
 zokou(
     {
         nomCom: 'fiche',
-        categorie: 'MAESTRIA'
+        categorie: 'Maetria'
     },
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
@@ -63,7 +63,7 @@ zokou(
 zokou(
     {
         nomCom: 'guide',
-        categorie: 'MAESTRIA'
+        categorie: 'Maestria'
     },
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
@@ -93,7 +93,7 @@ Remplissez sagement vos fiches ✨`;
 zokou(
     {
         nomCom: 'rmd',
-        categorie: 'MAESTRIA'
+        categorie: 'Maestria'
     },
     async (dest, zk, commandeOptions) => {
         const { repondre, arg, ms } = commandeOptions;
