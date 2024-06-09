@@ -717,7 +717,7 @@ zokou({nomCom:"hidetag",categorie:'Group',reaction:"🎤"},async(dest,zk,command
 });
 
 
-zokou({ nomCom: "apk", reaction: "✨", categorie: "Recherche" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "apk", reaction: "✨", categorie: "Search" }, async (dest, zk, commandeOptions) => {
   const { repondre, arg, ms } = commandeOptions;
 
   try {
