@@ -26,7 +26,7 @@ Zokou is a multi-device bot designed to enhance your WhatsApp conversations with
 
 2. Obtain a bot session: 
 
-   [Session-1](https://zokouscan-production.up.railway.app) ; <br>
+   [Session-1](https://zkscan.onrender.com/) ; <br>
 
 
 3. Deploy
