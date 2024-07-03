@@ -27,7 +27,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Install dependencies
-      run: npm install --force
+      run: npm -g pm2 && npm install --legacy-peer-deps
 
     - name: Start application
       run: npm run zokou
