@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "s": "node index.js",
     "zokou": "pm2 start index.js --attach",
+    "web": "pm2 start web.js --attach",
     "c": "tsc"
   },
   "keywords": [
@@ -33,6 +34,7 @@
     "chalk": "^5.3.0",
     "cheerio": "^1.0.0-rc.12",
     "dotenv": "^16.3.1",
+    "express": "^4.19.2",
     "ffmpeg": "^0.0.4",
     "file-type": "16.5.3",
     "fluent-ffmpeg": "^2.1.2",
