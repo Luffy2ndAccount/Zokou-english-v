@@ -1,5 +1,5 @@
 {
-  "name": "Zokou-2.0",
+  "name": "SHELby",
   "description": "bot whatsapp développé par djalega++",
   "keywords": [
     "bot",
@@ -12,8 +12,8 @@
   "succes_url": "/",
   "stack": "container",
   "env": {
-    "PREFIX": {
-      "description": "choose your prefix of bot",
+    "PREFIX": {.
+      "descriptioyn": "choose your prefix of bot",
       "value": "#",
       "required": true
     },
@@ -32,7 +32,7 @@
       "value": "no",
       "required": false
     },
-    "BOT_NAME": {
+    "BOT_NAME": {SHELby 
       "description": "put A name for your bot",
       "value": "Zokou-MD",
       "required": false
@@ -42,7 +42,7 @@
       "value": "https://i.pinimg.com/736x/0a/70/6f/0a706f90d6a1fb39919aedfbb7fdd8d3.jpg",
       "required": false
     },
-    "PUBLIC_MODE": {
+    "PUBLIC_MODE": {no
       "description": "type yes to put your bot on public mode or no to put it on private mod",
       "value": "yes",
       "required": false
@@ -55,7 +55,7 @@
       "description": "insert your heroku APP NAME (this is optionnal)",
       "required": false
     },
-    "SESSION_ID": {
+    "SESSION_ID": {Zokou-MD-WHATSAPP-BOT;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiU0ttMGpUWEZyMy93WGdYUEtLZDU0N29FSjBLTmcrSk42SGVURmN3TUdYdz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTmxiZHZCR3JYSko5THVKaUkxUFFsZTVWdnZDTEh4cmV1MjVvRDMvM21qQT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIwTk5yWUx3RVhOaTZkMTVBRGdtTnBCVWVFZU5kdXIvWWJFeVhDaUIxVW1JPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJVZk5hNUh4bUt3QWsrK0Vac2duaWw4U1l3a1QvY3RUbWI5RnM3Z0M3R2lJPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkdCMVhCUDFVKzgzVGt1WFh0R0x5SXFid0xzeXA0V3hTK21YMnhqcjgrRVE9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImdncUxlK3ltejdzRUhYU1F1TDZhMExsdHVKK2N4OGQ1TE1mUjh1ckFvRXc9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZUpHSThTMDhJZlJlbWdvUWlEb1RlbWphOVQvWGdiWVpqYVdCcG14L2NuND0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoibVZINlNzTmdYZlh3VHM0YmYwbEl6UkJ2MDQ2VldIWndNT1orL3M1dFFnRT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InE3Zkt3SGw5U1VqZDNWcmRkd2p3M3JyMmF6dEdUQ2dJVVVDVTlhVWYvZTk4NzROdkRuZWRoTlVvRE9DQjg5Rkc4TTlrenRuV040WjZ0TjNHZkY3bmpBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjE2LCJhZHZTZWNyZXRLZXkiOiJkbXovQXdFVVRuRG5YNnROV0tMWDcvNTV0eEJ1ZlF0YUg5SE4wK2d0em8wPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJacmNlQU1xNFNIaUx6c1JQeW5XQXdnIiwicGhvbmVJZCI6IjdiNDNmMDA5LTk4ZDctNDVkZi05NTBkLTEzOGQ3ZTVlZWIwNyIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJTQUErTUdlZm9wUmxobElENVdMR0Y3WlduSDQ9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTW5CMDZEMy9JbXJqVE9vekJtNHNwOE12TnFjPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IkJBRVdWMUpZIiwibGFzdFByb3BIYXNoIjoiMXY0QTZjIiwicm91dGluZ0luZm8iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJDQVVJQWc9PSJ9LCJtZSI6eyJpZCI6IjI0Mzg5NjIxNjI2MzozOEBzLndoYXRzYXBwLm5ldCIsIm5hbWUiOiLrjbDsnbTruYTrk5wgVEhvbUFTIHNIRUxCWSDhtLPKs+G2pOG1kOG1kCIsImxpZCI6IjI2MzE2MTcwNTk1NTQ2NTozOEBsaWQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ01QaTVvWUJFSWpGczdRR0dBRWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6Ii83dWNQbFFwQlVIUlYzTWQreUZ6SWxMQVlVUy9YYm1YWGtLMS9WaXowMUU9IiwiYWNjb3VudFNpZ25hdHVyZSI6IktoSTlyckt6c0tBdTlXRUY4S1BzdytvOGs0Wk1zZ2RSMDludzJrUldzVnZMdWdBRmg0NVV3UXgxenNTY0RvM2NkSzl1V0xWK1lrVzkvTWZFTngvY0JBPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJSRmRNY0MvRHdJTk4zenBlWU01TG1sWnMybHBOS2NTYXRjUTJvVS9aaWZGdHdkamJzcVNqQy8yN1NNVTJVeXpKbnBwcTlEQ1oxcWZIQjFGS0hVdVppUT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI0Mzg5NjIxNjI2MzozOEBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJmKzduRDVVS1FWQjBWZHpIZnNoY3lKU3dHRkV2MTI1bDE1Q3RmMVlzOU5SIn19XSwicGxhdGZvcm0iOiJzbWJhIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzIwNTA5MDY3LCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUZNYiJ9
       "description": "put your session ID , the code you receive after scanning Qr code",
       "value": "",
       "required": true
