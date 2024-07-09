@@ -85,13 +85,13 @@
       "value": "",
       "required": false
     },
-    "ANTI_DELETE_MESSAGE": {
-      "description": "if you want to enable anti delete message put yes else put no",
-      "value": "no",
-      "required": false
-    },
     "PM_CHATBOT": {
       "description": "Put yes if you want the bot to automatically respond to messages in private",
+      "required": false,
+      "value": "no"
+    },
+    "ANTI_VIEW_ONCE": {
+      "description": "Put yes if you want to receive in pm all view once content",
       "required": false,
       "value": "no"
     }
