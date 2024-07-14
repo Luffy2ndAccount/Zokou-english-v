@@ -1,4 +1,4 @@
-# Zokou-2.0
+# popkid-2.0
 
 
 
@@ -40,7 +40,7 @@ Contributions to Zokou are welcome! If you have ideas for new features, improvem
 
    thinks to these persons ;
 
-   **Fatao** who added commands (Fancy, gpt, dalle, apk); <br>
+   **popkid** who added commands (Fancy, gpt, dalle, apk); <br>
 
    **CrazyPrice** who hosted a second website for the session_id;
 
