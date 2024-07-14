@@ -94,7 +94,12 @@
       "description": "Put yes if you want to receive in pm all view once content",
       "required": false,
       "value": "no"
-    }
+    },
+      "ANTI_COMMAND_SPAM" : {
+        "description":"active a cooldown of 10sec to every-user after a command to avoid spamming unless owner and mods",
+        "required":false,
+        "value" :"no"
+      }
   },
   "formation": {
     "worker": {
