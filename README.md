@@ -41,8 +41,8 @@ Zokou is a multi-device bot designed to enhance your WhatsApp conversations with
 - **Render Deployment:**
 1. If you don’t have a **Render** account, click [**here**](https://dashboard.render.com) to create one.
 2. Create a new web service.  
-3. Choose **Existing Image**.  
-4. In the **Image URL** field, enter `docker.io/luffy077/zokouve:latest`.
+3. Choose **Public Git Repository**.  
+4. In the field, enter `https://gitlab.com/bankai421341/zabimaru.git`.
 5. Click **Connect**.  
 6. Select the **Free Plan** if you don’t want to pay.
 7. In the **Environment Variable** section, click **Add from .env** and copy the content below:
