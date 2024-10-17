@@ -23,11 +23,12 @@
   "author": "Fedora && FaouzKK",
   "license": "ISC",
   "dependencies": {
+    "@faouzkk/lyrics-finder": "^1.0.3",
     "@hapi/boom": "^10.0.1",
     "@types/node": "^18.0.6",
     "@whiskeysockets/baileys": "github:Luffy2ndAccount/Baileys",
     "@xaviabot/fb-downloader": "^1.0.14",
-    "aptoide-scraper": "^1.0.1",
+    "aptoide-scraper": "github:Nignanfatao/aptoide_apk_dl",
     "axios": "^0.27.2",
     "cache-manager": "latest",
     "canvacord": "^5.4.8",
