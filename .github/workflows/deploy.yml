@@ -31,9 +31,9 @@ jobs:
     - name: Install dependencies
       run: |
         npm install -g pm2
-        npm update sharp
         npm install
 
     - name: Start application with timeout
       run: |
         timeout 14520s npm run zokou
+        
