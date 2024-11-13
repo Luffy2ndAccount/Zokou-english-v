@@ -6,7 +6,7 @@
   "type": "commonjs",
   "scripts": {
     "test": "node index.js",
-    "s": "node index.js",
+    "start": "node index.js",
     "zokou": "pm2 start index.js --attach",
     "web": "pm2 start web.js --attach",
     "c": "tsc"
