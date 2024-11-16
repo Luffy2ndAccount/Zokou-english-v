@@ -5,8 +5,9 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
+    "postinstall": "npm install pm2 -g",
     "test": "node index.js",
-    "s": "node index.js",
+    "start": "pm2 start web.js --attach",
     "zokou": "pm2 start index.js --attach",
     "web": "pm2 start web.js --attach",
     "c": "tsc"
