@@ -1,1 +1,1 @@
-web: npm install -g pm2 && npm start
+web: node web.js
