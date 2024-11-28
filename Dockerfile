@@ -7,7 +7,7 @@ RUN apt-get update && \
   webp && \
   apt-get upgrade -y && \
   rm -rf /var/lib/apt/lists/*
-  
+
 RUN git clone https://github.com/Luffy2ndAccount/Zokou-english-v  /root/Zokou_BOt
 WORKDIR /root/Zokou_Bot/
 
