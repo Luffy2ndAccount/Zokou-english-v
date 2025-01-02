@@ -1,6 +1,6 @@
 {
   "name": "Zokou-2.0",
-  "description": "bot whatsapp développé par djalega++",
+  "description": "WhatsApp bot developed by djalega++",
   "keywords": [
     "bot",
     "node",
@@ -13,70 +13,70 @@
   "stack": "container",
   "env": {
     "PREFIX": {
-      "description": "choose your prefix of bot",
+      "description": "choose your bot prefix",
       "value": "#",
       "required": true
     },
     "AUTO_READ_STATUS": {
-      "description": "Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
+      "description": "Your contact status will be read automatically (type yes to activate or no to deactivate; don't write in capital letters)",
       "value": "yes",
       "required": false
     },
     "AUTO_DOWNLOAD_STATUS": {
-      "description": "Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
+      "description": "Your contact status will be downloaded automatically and sent to you (type yes to activate or no to deactivate; don't write in capital letters)",
       "value": "yes",
       "required": false
     },
     "PM_PERMIT": {
-      "description": "Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
+      "description": "Other users can't use your bot in private messages (type yes to activate or no to deactivate; don't write in capital letters)",
       "value": "no",
       "required": false
     },
     "BOT_NAME": {
-      "description": "put A name for your bot",
+      "description": "put a name for your bot",
       "value": "Zokou-MD",
       "required": false
     },
     "BOT_MENU_LINKS": {
-      "description": "add one or many link for your bot menu  ; eg : url1,url2,url3.....",
+      "description": "add one or many links for your bot menu; e.g., url1,url2,url3.....",
       "value": "https://i.pinimg.com/736x/0a/70/6f/0a706f90d6a1fb39919aedfbb7fdd8d3.jpg",
       "required": false
     },
     "PUBLIC_MODE": {
-      "description": "type yes to put your bot on public mode or no to put it on private mod",
+      "description": "type yes to put your bot in public mode or no to put it in private mode",
       "value": "yes",
       "required": false
     },
     "HEROKU_APY_KEY": {
-      "description": "insert your heroku api-key (this is optionnal)",
+      "description": "insert your Heroku API key (this is optional)",
       "required": false
     },
     "HEROKU_APP_NAME": {
-      "description": "insert your heroku APP NAME (this is optionnal)",
+      "description": "insert your Heroku APP NAME (this is optional)",
       "required": false
     },
     "SESSION_ID": {
-      "description": "put your session ID , the code you receive after scanning Qr code",
+      "description": "put your session ID, the code you receive after scanning the QR code",
       "value": "",
       "required": true
     },
     "OWNER_NAME": {
-      "desc": "Your Name",
+      "description": "Your Name",
       "required": false,
       "value": "Djalega++"
     },
     "NUMERO_OWNER": {
-      "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
+      "description": "Your number, don't put '+' and include your area code (example for Togo '228')",
       "required": false,
       "value": "22891733300"
     },
     "WARN_COUNT": {
-      "desc": "this is the limit of warn for warning commandes",
+      "description": "this is the limit of warnings for warning commands",
       "required": false,
       "value": "3"
     },
     "STARTING_BOT_MESSAGE": {
-      "description": "if you don't want startting-bot-message put no else put yes",
+      "description": "if you don't want a starting-bot-message put no, otherwise put yes",
       "required": true,
       "value": "yes"
     },
@@ -91,25 +91,30 @@
       "value": "no"
     },
     "ANTI_VIEW_ONCE": {
-      "description": "Put yes if you want to receive in pm all view once content",
+      "description": "Put yes if you want to receive all view once content in private messages",
       "required": false,
       "value": "no"
     },
-      "ANTI_COMMAND_SPAM" : {
-        "description":"active a cooldown of 10sec to every-user after a command to avoid spamming unless owner and mods",
-        "required":false,
-        "value" :"no"
-      }
+    "ANTI_COMMAND_SPAM": {
+      "description": "activate a cooldown of 10 seconds for every user after a command to avoid spamming unless owner and mods",
+      "required": false,
+      "value": "no"
+    },
+    "ANTI_DELETE_MESSAGE": {
+      "description": "Put yes if you want messages deleted by other users to be sent to you in private messages",
+      "required": false,
+      "value": "no"
+    },
+    "AUTO_REACT_MESSAGE": {
+      "description": "Put yes if you want messages to be automatically reacted to",
+      "required": false,
+      "value": "no"
+    }
   },
   "formation": {
     "worker": {
       "quantity": 1,
       "size": "standard-2x"
     }
-  },
-  "addons": [
-    {
-      "plan": "heroku-postgresql:essential-0"
-    }
-  ]
+  }
 }
